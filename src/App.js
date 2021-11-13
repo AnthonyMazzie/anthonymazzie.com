@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/resume" component={resumePage}/>
+          <Route path="/resume" component={<resumePage/>}/>
         </Routes>
       </Router>
   );

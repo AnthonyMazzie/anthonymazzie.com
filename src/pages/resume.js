@@ -1,6 +1,6 @@
 import React from "react";
 
-const resumePage = () => {
+const ResumePage = () => {
   return (
     <div>
       <iframe
@@ -14,4 +14,4 @@ const resumePage = () => {
   );
 };
 
-export default resumePage;
+export default ResumePage;

@@ -38,7 +38,7 @@ const Services = () => {
             <ServicesIcon src={Icon2} />
             <ServicesH2>Organization</ServicesH2>
             <ServicesP>
-              Punctuality and time mangement have always been two of my
+              Punctuality and time management have always been two of my
               strongest traits. I get it done on time, every time.
             </ServicesP>
           </ServicesCard>

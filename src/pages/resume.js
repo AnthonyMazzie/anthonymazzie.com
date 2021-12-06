@@ -1,10 +1,11 @@
 import React from "react";
+import ResumePDF from "./2021_Resume_Mazzie.pdf";
 
 const ResumePage = () => {
   return (
     <div>
       <iframe
-        src="https://drive.google.com/file/d/1DbnPthWgHHZWfaLCWgqWvwlFcFxXQPTZ/preview"
+        src={ResumePDF}
         width="100%"
         height="800pt"
         allow="autoplay"

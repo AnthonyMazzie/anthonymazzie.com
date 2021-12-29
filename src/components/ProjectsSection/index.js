@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ExternLink from "./gitLink";
+import MazzieCafe from "./mazzieCafeLink";
 import {
   InfoContainer,
   InfoWrapper,
@@ -44,8 +45,15 @@ const ProjectsSection = ({
                   <TopLine>{topLine}</TopLine>
                   <Heading lightText={lightText}>{headLine}</Heading>
                   <SubTitle darkText={darkText}>{description}</SubTitle>
+
                   <LinkWrap>
                     <ExternLink />
+                    <p style={{ color: "black", marginTop: "20px" }}>
+                      My newest personal project is linked below, a React app
+                      called Mazzie's Cafe. This helped me to learn how to use
+                      React State, Hooks and Context.
+                    </p>
+                    <MazzieCafe />
                   </LinkWrap>
                 </TextWrapper>
               </Column1>

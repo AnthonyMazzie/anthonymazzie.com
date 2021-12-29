@@ -14,10 +14,10 @@ import {
   SocialIconLink,
   RocketLine,
   OutlineRocket,
+  FooterRoute,
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
 import Logo from "../logo";
-import { Link } from "react-router-dom";
 import { Button } from "../ButtonElement";
 
 const Footer = () => {
@@ -37,18 +37,14 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <Link
-                className="btn btn-lg"
-                role="button"
+              <FooterRoute
                 to="/resume"
-                style={{
-                  background: "#1e90ff",
-                  color: "black",
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={toggleHome}
               >
-                My Resume
-              </Link>
-
+                Resume
+              </FooterRoute>
               <Button
                 style={{ top: "50%", left: "50%", margin: "10px 0px 0px 10px" }}
                 onClick={toggleHome}

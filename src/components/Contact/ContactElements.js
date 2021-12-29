@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   margin-top: 25px;
+  margin-bottom: 25px;
   padding-top: 35px;
   color: black;
   background: white;
@@ -13,13 +14,9 @@ export const InfoContainer = styled.div`
 
 export const InfoWrapper = styled.div`
   display: grid;
-  z-index: 1;
-  height: 600px;
+  margin: auto;
   width: 100%;
   max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 24px;
   justify-content: center;
 `;
 
@@ -51,7 +48,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 `;
 
 export const TopLine = styled.p`

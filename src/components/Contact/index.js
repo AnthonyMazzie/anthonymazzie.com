@@ -23,9 +23,6 @@ const Contact = ({
   topLine,
   lightText,
   headLine,
-  darkText,
-  description,
-  buttonLabel,
   img,
   alt,
 }) => {

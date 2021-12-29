@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 import { AiOutlineRocket } from "react-icons/ai";
@@ -69,6 +70,30 @@ export const FooterLink = styled(Link)`
   &:hover {
     color: #1e90ff;
     transition: 0.3s ease-out;
+  }
+`;
+
+export const FooterRoute = styled(LinkR)`
+  border-radius: 50px;
+  background-color: #467fd0;
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+  color: white;
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: black;
+    font-weight: bold;
   }
 `;
 

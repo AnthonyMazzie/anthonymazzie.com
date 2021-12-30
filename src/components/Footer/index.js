@@ -51,6 +51,7 @@ const Footer = () => {
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary="true"
+                to="/"
                 dark="true"
               >
                 Return to Top {hover ? <OutlineRocket /> : <RocketLine />}

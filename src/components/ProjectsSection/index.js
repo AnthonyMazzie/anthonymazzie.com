@@ -49,9 +49,10 @@ const ProjectsSection = ({
                   <LinkWrap>
                     <ExternLink />
                     <p style={{ color: "black", marginTop: "20px" }}>
-                      My newest personal project is linked below, a React app
-                      called Mazzie's Cafe. This helped me to learn how to use
-                      React State, Hooks and Context.
+                      My newest personal project is linked below (December
+                      2021). It's a React app called Mazzie's Cafe. I used this
+                      project to help me learn about the useState, useEffect,
+                      useContext and useReducer React hooks.
                     </p>
                     <MazzieCafe />
                   </LinkWrap>

@@ -156,7 +156,6 @@ const ProjectsSection = ({
               <Column2>
                 <ImgWrap>
                   <Img src={img} alt={alt} />
-                  <Img src={img} alt={alt} />
                 </ImgWrap>
               </Column2>
             </InfoRow>

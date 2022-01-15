@@ -4,7 +4,7 @@ import { ExternalLink } from "react-external-link";
 const ExternLink = () => (
   <div>
     <ExternalLink href="https://github.com/AnthonyMazzie">
-      <span>Link to my GitHub</span>
+      <span>See my work at GitHub</span>
     </ExternalLink>
   </div>
 );

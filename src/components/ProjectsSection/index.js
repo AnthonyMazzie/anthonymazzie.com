@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ExternLink from "./gitLink";
 import MazzieCafe from "./mazzieCafeLink";
-import "./ProjectsStyle.css";
 import {
   InfoContainer,
   InfoWrapper,
@@ -141,6 +140,11 @@ const ProjectsSection = ({
                       <span class="badge bg-primary rounded-pill">C</span>
                     </li>
                   </ul>
+                </TextWrapper>
+              </Column1>
+              <Column2>
+                <ImgWrap>
+                  <Img src={img} alt={alt} />
                   <LinkWrap>
                     <ExternLink />
                     <p style={{ color: "black", marginTop: "20px" }}>
@@ -151,11 +155,6 @@ const ProjectsSection = ({
                     </p>
                     <MazzieCafe />
                   </LinkWrap>
-                </TextWrapper>
-              </Column1>
-              <Column2>
-                <ImgWrap>
-                  <Img src={img} alt={alt} />
                 </ImgWrap>
               </Column2>
             </InfoRow>

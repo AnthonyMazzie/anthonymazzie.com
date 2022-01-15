@@ -139,6 +139,50 @@ const ProjectsSection = ({
                       Database Management Systems
                       <span class="badge bg-primary rounded-pill">C</span>
                     </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="From the Iowa State Catalog: COMS327 - Object-oriented programming experience using a language suitable for exploring advanced topics in programming. Topics include memory management, parameter passing, inheritance, compiling, debugging, and maintaining programs. Significant programming projects."
+                    >
+                      Advanced Programming Techniques
+                      <span class="badge bg-primary rounded-pill">
+                        IN PROGRESS
+                      </span>
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="From the Iowa State Catalog: CPRE308 - Operating system concepts, processes, threads, synchronization between threads, process and thread scheduling, deadlocks, memory management, file systems, I/O systems,security, Linux-based lab experiments."
+                    >
+                      Operating Systems: Principles and Practice
+                      <span class="badge bg-primary rounded-pill">
+                        IN PROGRESS
+                      </span>
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="From the Iowa State Catalog: SE317 - Basic principles and techniques for software testing. Test requirements and management. Test design techniques, evaluation metrics, model-based testing, unit testing, system and integration testing. Software testing tools and programming projects."
+                    >
+                      Introduction to Software Testing
+                      <span class="badge bg-primary rounded-pill">
+                        IN PROGRESS
+                      </span>
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="From the Iowa State Catalog: SE339 - Modeling and design of software at the architectural level. Architectural styles. Basics of model-driven architecture. Object-oriented design and analysis. Iterative development and unified process. Design patterns. Design by contract. Component based design. Product families. Measurement theory and appropriate use of metrics in design. Designing for qualities such as performance, safety, security, reliability, reusability, etc. Analysis and evaluation of software architectures. Introduction to architecture definition languages. Basics of software evolution, reengineering, and reverse engineering. Case studies. Introduction to distributed system software."
+                    >
+                      Software Architecture and Design
+                      <span class="badge bg-primary rounded-pill">
+                        IN PROGRESS
+                      </span>
+                    </li>
                   </ul>
                 </TextWrapper>
               </Column1>

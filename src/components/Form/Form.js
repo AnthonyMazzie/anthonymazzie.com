@@ -3,6 +3,12 @@ import "./Form.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "emailjs-com";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import {
+  FormSocialMediaWrap,
+  FormSocialIcons,
+  FormSocialIconLink,
+} from "./FormElements";
 import { init } from "emailjs-com";
 init("user_3vJZ0yBgECs8XeMThNaDn");
 
@@ -86,6 +92,30 @@ const Form = () => {
         >
           Send Email
         </button>
+        <FormSocialMediaWrap>
+          <FormSocialIcons>
+            <FormSocialIconLink
+              area-label="Github"
+              href="https://github.com/AnthonyMazzie"
+            >
+              <FaGithub />
+            </FormSocialIconLink>
+
+            <FormSocialIconLink
+              area-label="Twitter"
+              href="https://twitter.com/mazzieengineer"
+            >
+              <FaTwitter />
+            </FormSocialIconLink>
+
+            <FormSocialIconLink
+              area-label="LinkedIn"
+              href="https://www.linkedin.com/in/anthony-mazzie"
+            >
+              <FaLinkedin />
+            </FormSocialIconLink>
+          </FormSocialIcons>
+        </FormSocialMediaWrap>
       </form>
     </div>
   );

@@ -90,6 +90,8 @@ export const LinkWrap = styled.div`
   margin: auto;
   text-align: center;
   font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
 `;
 
 export const ImgWrap = styled.div`

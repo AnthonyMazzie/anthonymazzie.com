@@ -27,7 +27,8 @@ const ProjectsSection = ({
   lightText,
   headLine,
   darkText,
-  description,
+  description1,
+  description2,
   img,
   alt,
 }) => {
@@ -44,8 +45,51 @@ const ProjectsSection = ({
                 <TextWrapper>
                   <TopLine>{topLine}</TopLine>
                   <Heading lightText={lightText}>{headLine}</Heading>
-                  <SubTitle darkText={darkText}>{description}</SubTitle>
-
+                  <SubTitle darkText={darkText}>{description1}</SubTitle>
+                  <SubTitle darkText={darkText}>{description2}</SubTitle>
+                  <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Digital Logic
+                      <span class="badge bg-primary rounded-pill">A-</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Problem Solving in Software Engineering
+                      <span class="badge bg-primary rounded-pill">A</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Object-Oriented Programming
+                      <span class="badge bg-primary rounded-pill">C+</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Data Structures and Algorithms
+                      <span class="badge bg-primary rounded-pill">B</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Embedded Systems 1
+                      <span class="badge bg-primary rounded-pill">A</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Principles of Programming Languages
+                      <span class="badge bg-primary rounded-pill">B</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Software Development Practices
+                      <span class="badge bg-primary rounded-pill">B+</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Construction of User Interfaces
+                      <span class="badge bg-primary rounded-pill">A</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Introduction to Computer Architecture and Machine-Level
+                      Programming
+                      <span class="badge bg-primary rounded-pill">B-</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Database Management Systems
+                      <span class="badge bg-primary rounded-pill">C</span>
+                    </li>
+                  </ul>
                   <LinkWrap>
                     <ExternLink />
                     <p style={{ color: "black", marginTop: "20px" }}>

@@ -14,7 +14,6 @@ import {
   SocialIconLink,
   RocketLine,
   OutlineRocket,
-  FooterRoute,
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
 import Logo from "../logo";

@@ -18,9 +18,6 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Modal from "@mui/material/Modal";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -28,20 +25,8 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Stack from "@mui/material/Stack";
 import EducationData from "./educationData";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: "90%",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
 
 const ProjectsSection = ({
   lightBg,
@@ -61,16 +46,6 @@ const ProjectsSection = ({
     Aos.init({ duration: 3000 });
   }, []);
 
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -129,40 +104,6 @@ const ProjectsSection = ({
                     <MazzieCafe />
                   </LinkWrap>
                 </ImgWrap>
-                <div>
-                  <Button onClick={handleOpen}>Open Resume</Button>
-                  <Modal
-                    open={open}
-                    onClose={handleClose}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
-                  >
-                    <Box sx={style}>
-                      <Typography
-                        id="modal-modal-title"
-                        variant="h6"
-                        component="h2"
-                      >
-                        Anthony Mazzie Resume
-                      </Typography>
-                      <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        Updated January 2022
-                      </Typography>
-                      <div>
-                        <Document
-                          file="2022_Resume_Mazzie.pdf"
-                          onLoadSuccess={onDocumentLoadSuccess}
-                        >
-                          <Page pageNumber={pageNumber} />
-                        </Document>
-                        <p>
-                          Page {pageNumber} of {numPages}
-                        </p>
-                      </div>
-                      <Button onClick={handleClose}>Close</Button>
-                    </Box>
-                  </Modal>
-                </div>
               </Column2>
             </InfoRow>
           </InfoWrapper>

@@ -74,6 +74,7 @@ export const SoftSkillsH1 = styled.h1`
   text-align: center;
   font-size: 48px;
   color: #f7f8fa;
+  margin-top: 25px;
   margin-bottom: 25px;
   font-weight: 600;
   margin-top: 5px;

@@ -78,7 +78,7 @@ export const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 0.7rem;
   height: 100%;
   cursor: pointer;
 
@@ -100,7 +100,7 @@ export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #1e90ff;
   white-space: nowrap;
-  padding: 10px 22px;
+  padding: 5px 10px;
   color: #010606;
   font-size: 16px;
   outline: none;

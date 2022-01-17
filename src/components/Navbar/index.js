@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={0}
                 >
                   About
                 </NavLinks>
@@ -67,9 +67,9 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={0}
                 >
-                  Projects
+                  Experience
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -79,21 +79,9 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={0}
                 >
                   Soft Skills
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="contact"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Contact
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -103,9 +91,21 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={0}
                 >
                   Tech Skills
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Contact
                 </NavLinks>
               </NavItem>
             </NavMenu>

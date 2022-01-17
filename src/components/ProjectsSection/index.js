@@ -31,7 +31,6 @@ const ProjectsSection = ({
   lightBg,
   id,
   imgStart,
-  topLine,
   lightText,
   headLine,
   darkText,
@@ -53,7 +52,6 @@ const ProjectsSection = ({
             <InfoRow imgStart={imgStart}>
               <Column1>
                 <TextWrapper>
-                  <TopLine>{topLine}</TopLine>
                   <Heading lightText={lightText}>{headLine}</Heading>
                   <SubTitle darkText={darkText}>{description1}</SubTitle>
                   <SubTitle darkText={darkText}>{description2}</SubTitle>

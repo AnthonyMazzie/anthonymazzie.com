@@ -23,7 +23,7 @@ const TechSkills = () => {
   }, []);
 
   return (
-    <TechSkillsContainer id="Tech_skills">
+    <TechSkillsContainer id="tech_skills">
       <div data-aos="fade-left">
         <TechSkillsH1>Tech Skills</TechSkillsH1>
         <TechSkillsWrapper>

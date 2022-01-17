@@ -96,6 +96,18 @@ const Navbar = ({ toggle }) => {
                   Contact
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="tech_skills"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Tech Skills
+                </NavLinks>
+              </NavItem>
             </NavMenu>
 
             <NavBtn>

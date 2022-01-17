@@ -3,7 +3,6 @@ export const projectsObj = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Projects",
   headLine: "Because learning by doing is the best way",
   description1:
     "I began formally studying Software Engineering in the Spring of 2020 at Iowa State University. I will graduate with a Bachelor of Engineering in Software Engineering after Spring 2023.",

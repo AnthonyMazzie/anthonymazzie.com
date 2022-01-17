@@ -8,7 +8,6 @@ import {
   Column1,
   Column2,
   TextWrapper,
-  TopLine,
   Heading,
   SubTitle,
   ImgWrap,

@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   margin-top: 25px;
-  margin-bottom: 25px;
   padding-top: 35px;
-  color: black;
-  background: white;
+  color: white;
+  background: black;
 
   @media screen and (max-width: 768px) {
     padding: 50 0;
@@ -52,7 +51,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #1e90ff;
+  color: ghostwhite;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -66,7 +65,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: black;
+  color: ghostwhite;
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -79,7 +78,7 @@ export const SubTitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: black;
+  color: ghostwhite;
   font-weight: 600;
 `;
 

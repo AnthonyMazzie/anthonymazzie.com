@@ -111,13 +111,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
 
             <NavBtn>
-              <NavBtnLink
-                to="/resume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </NavBtnLink>
+              <NavBtnLink to="/resume">Resume</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

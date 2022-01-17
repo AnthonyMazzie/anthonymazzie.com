@@ -18,7 +18,8 @@ import {
 } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
 import Logo from "../logo";
-import { Button } from "../ButtonElement";
+import { ButtonScroll } from "../ButtonScroll";
+import { ButtonLink } from "../ButtonLink";
 
 const Footer = () => {
   const [hover, setHover] = useState(false);
@@ -37,15 +38,8 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterRoute
-                to="/resume"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={toggleHome}
-              >
-                Resume
-              </FooterRoute>
-              <Button
+              <ButtonLink to="/resume">Resume</ButtonLink>
+              <ButtonScroll
                 style={{ top: "50%", left: "50%", margin: "10px 0px 0px 10px" }}
                 onClick={toggleHome}
                 onMouseEnter={onHover}
@@ -55,7 +49,7 @@ const Footer = () => {
                 dark="true"
               >
                 Return to Top {hover ? <OutlineRocket /> : <RocketLine />}
-              </Button>
+              </ButtonScroll>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

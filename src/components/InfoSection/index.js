@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Button } from "../ButtonElement";
+import { ButtonScroll } from "../ButtonScroll";
 import {
   InfoContainer,
   InfoWrapper,
@@ -51,7 +51,7 @@ const InfoSection = ({
                   <Heading lightText={lightText}>{headLine}</Heading>
                   <SubTitle darkText={darkText}>{description}</SubTitle>
                   <BtnWrap>
-                    <Button
+                    <ButtonScroll
                       to={to}
                       smooth={true}
                       duration={500}
@@ -63,7 +63,7 @@ const InfoSection = ({
                       dark2={dark2 ? 1 : 0}
                     >
                       {buttonLabel}
-                    </Button>
+                    </ButtonScroll>
                   </BtnWrap>
                 </TextWrapper>
               </Column1>

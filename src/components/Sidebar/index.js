@@ -32,12 +32,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="contact" onClick={toggle}>
             Contact
           </SidebarLink>
-          <SidebarRoute
-            to="/resume"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={toggle}
-          >
+          <SidebarRoute to="/resume" onClick={toggle}>
             Resume
           </SidebarRoute>
         </SidebarMenu>

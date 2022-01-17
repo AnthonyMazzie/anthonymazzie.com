@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import Marquee from "react-fast-marquee";
 import Icon4 from "../../images/coding.svg";
 import Icon5 from "../../images/thought_process.svg";
 import Icon6 from "../../images/teaching.svg";
@@ -30,12 +30,30 @@ const TechSkills = () => {
           <TechSkillsCard>
             <TechSkillsH2>Front End Languages</TechSkillsH2>
             <TechSkillsIcon src={Icon4} />
-            <TechSkillsP>HTML, CSS, JavaScript</TechSkillsP>
+            <Marquee
+              direction="right"
+              pauseOnHover="true"
+              pauseOnClick="true"
+              speed="125"
+              gradientColor="255 255 255"
+              style={{ backgroundColor: "black", color: "ghostwhite" }}
+            >
+              <TechSkillsP>HTML - CSS - JavaScript</TechSkillsP>
+            </Marquee>
           </TechSkillsCard>
           <TechSkillsCard>
             <TechSkillsH2>Back End Languages</TechSkillsH2>
             <TechSkillsIcon src={Icon5} />
-            <TechSkillsP>JavaScript, Java, C</TechSkillsP>
+            <Marquee
+              direction="left"
+              pauseOnHover="true"
+              pauseOnClick="true"
+              speed="125"
+              gradientColor="255 255 255"
+              style={{ backgroundColor: "black", color: "ghostwhite" }}
+            >
+              <TechSkillsP>JavaScript - Java - C</TechSkillsP>
+            </Marquee>
           </TechSkillsCard>
           <TechSkillsCard>
             <TechSkillsH2>Tools / Frameworks / Libraries</TechSkillsH2>

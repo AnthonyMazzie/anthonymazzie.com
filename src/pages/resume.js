@@ -15,7 +15,9 @@ const ResumePage = () => {
           title="AnthonyMazzieResume_2021"
         ></iframe>
       </Box>
-      <ButtonLink to="/">Return</ButtonLink>
+      <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
+        <ButtonLink to="/">Return</ButtonLink>
+      </Box>
     </Container>
   );
 };

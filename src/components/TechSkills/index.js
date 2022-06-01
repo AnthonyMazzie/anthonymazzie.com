@@ -52,7 +52,7 @@ const TechSkills = () => {
               gradientColor="255 255 255"
               style={{ backgroundColor: "black", color: "ghostwhite" }}
             >
-              <TechSkillsP>JavaScript - Java - C</TechSkillsP>
+              <TechSkillsP>Python - JavaScript - Java - C - NodeJS</TechSkillsP>
             </Marquee>
           </TechSkillsCard>
           <TechSkillsCard>

@@ -73,28 +73,28 @@ const engineeringCourses = [
   {
     id: 11,
     title: "Advanced Programming Techniques",
-    grade: "In Progress",
+    grade: "B+",
     description:
       "COM S 327: Object-oriented programming experience using a language suitable for exploring advanced topics in programming. Topics include memory management, parameter passing, inheritance, compiling, debugging, and maintaining programs. Significant programming projects. *Source: Iowa State University Catalog",
   },
   {
     id: 12,
     title: "Operating Systems: Principles and Practice",
-    grade: "In Progress",
+    grade: "B",
     description:
       "CPR E 308: Operating system concepts, processes, threads, synchronization between threads, process and thread scheduling, deadlocks, memory management, file systems, I/O systems,security, Linux-based lab experiments. *Source: Iowa State University Catalog",
   },
   {
     id: 13,
     title: "Introduction to Software Testing",
-    grade: "In Progress",
+    grade: "A",
     description:
       "SE 317: Basic principles and techniques for software testing. Test requirements and management. Test design techniques, evaluation metrics, model-based testing, unit testing, system and integration testing. Software testing tools and programming projects. *Source: Iowa State University Catalog",
   },
   {
     id: 14,
     title: "Software Architecture and Design",
-    grade: "In Progress",
+    grade: "A",
     description:
       "SE 339: Modeling and design of software at the architectural level. Architectural styles. Basics of model-driven architecture. Object-oriented design and analysis. Iterative development and unified process. Design patterns. Design by contract. Component based design. Product families. Measurement theory and appropriate use of metrics in design. Designing for qualities such as performance, safety, security, reliability, reusability, etc. Analysis and evaluation of software architectures. Introduction to architecture definition languages. Basics of software evolution, reengineering, and reverse engineering. Case studies. Introduction to distributed system software. *Source: Iowa State University Catalog",
   },

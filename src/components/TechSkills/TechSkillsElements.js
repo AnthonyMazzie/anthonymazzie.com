@@ -66,7 +66,7 @@ export const CredentialsCard = styled.div`
   background: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 10px;
   padding: 30px;

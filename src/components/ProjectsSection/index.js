@@ -93,7 +93,7 @@ const ProjectsSection = ({
               <Column2>
                 <ImgWrap>
                   <Img src={img} alt={alt} />
-                  <LinkWrap>
+                  {/* <LinkWrap>
                     <ExternLink />
                     <p style={{ color: "black", marginTop: "20px" }}>
                       My newest personal project is linked below (December
@@ -102,7 +102,7 @@ const ProjectsSection = ({
                       useContext and useReducer React hooks.
                     </p>
                     <MazzieCafe />
-                  </LinkWrap>
+                  </LinkWrap> */}
                 </ImgWrap>
               </Column2>
             </InfoRow>

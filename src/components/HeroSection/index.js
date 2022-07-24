@@ -31,7 +31,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroIntro>Hi, my name is</HeroIntro>
         <HeroH1>Anthony Mazzie.</HeroH1>
-        <HeroH2>I design and develop computer applications.</HeroH2>
+        <HeroH2>I design and develop software in the cloud.</HeroH2>
         <HeroP>
           I am a software engineering student focused on building creative and
           innovative technology that will improve the world of tomorrow. I built

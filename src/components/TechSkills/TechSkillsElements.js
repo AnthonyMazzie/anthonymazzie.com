@@ -62,6 +62,36 @@ export const TechSkillsCard = styled.div`
   }
 `;
 
+export const CredentialsCard = styled.div`
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1000px) {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    width: 350px;
+  }
+`;
+
 export const TechSkillsIcon = styled.img`
   height: 125px;
   width: 125px;

@@ -4,6 +4,9 @@ import Icon4 from "../../images/coding.svg";
 import Icon5 from "../../images/thought_process.svg";
 import Icon6 from "../../images/teaching.svg";
 import Icon7 from "../../images/process.svg";
+import AWSCloudPractitioner from "../AWS/cloud_prac";
+import AWSSolutionsArchitectAss from "../AWS/solutions_arch_ass";
+
 import {
   TechSkillsContainer,
   TechSkillsWrapper,
@@ -12,6 +15,7 @@ import {
   TechSkillsIcon,
   TechSkillsH2,
   TechSkillsP,
+  CredentialsCard,
 } from "./TechSkillsElements";
 
 import Aos from "aos";
@@ -80,6 +84,11 @@ const TechSkills = () => {
             </Marquee>
           </TechSkillsCard>
         </TechSkillsWrapper>
+        <TechSkillsH1>Certifications</TechSkillsH1>
+        <CredentialsCard>
+          <AWSCloudPractitioner />
+          <AWSSolutionsArchitectAss />
+        </CredentialsCard>
       </div>
     </TechSkillsContainer>
   );

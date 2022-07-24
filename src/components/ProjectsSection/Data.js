@@ -4,7 +4,8 @@ export const projectsObj = {
   lightText: false,
   lightTextDesc: false,
   headLine: "Because learning by doing is the best way",
-  description1: "Software classes I have taken at Iowa State University:",
+  description1:
+    "Computer Engineering, Software Engineering and Computer Science classes I have taken at Iowa State University:",
   imgStart: false,
   img: require("../../images/programming.svg").default,
   alt: "Car",

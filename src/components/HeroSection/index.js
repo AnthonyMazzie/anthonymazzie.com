@@ -35,7 +35,8 @@ const HeroSection = () => {
         <HeroP>
           I am a software engineering student focused on building creative and
           innovative technology that will improve the world of tomorrow. I built
-          this website to help me learn more about web development.
+          this website and hosted it in the cloud to help me learn more about
+          web development.
         </HeroP>
         <HeroBtnWrapper>
           <ButtonScroll

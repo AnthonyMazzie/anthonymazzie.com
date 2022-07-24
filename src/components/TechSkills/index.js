@@ -52,7 +52,9 @@ const TechSkills = () => {
               gradientColor="255 255 255"
               style={{ backgroundColor: "black", color: "ghostwhite" }}
             >
-              <TechSkillsP>Python - JavaScript - Java - C - NodeJS</TechSkillsP>
+              <TechSkillsP>
+                Python - JavaScript/TypeScript - Java - C - C++
+              </TechSkillsP>
             </Marquee>
           </TechSkillsCard>
           <TechSkillsCard>
@@ -66,7 +68,16 @@ const TechSkills = () => {
           <TechSkillsCard>
             <TechSkillsH2>Infrastructure</TechSkillsH2>
             <TechSkillsIcon src={Icon7} />
-            <TechSkillsP>AWS</TechSkillsP>
+            <Marquee
+              direction="left"
+              pauseOnHover="true"
+              pauseOnClick="true"
+              speed="125"
+              gradientColor="255 255 255"
+              style={{ backgroundColor: "black", color: "ghostwhite" }}
+            >
+              <TechSkillsP>AWS - Terraform</TechSkillsP>
+            </Marquee>
           </TechSkillsCard>
         </TechSkillsWrapper>
       </div>

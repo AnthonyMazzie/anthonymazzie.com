@@ -52,12 +52,12 @@ const TechSkills = () => {
               direction="left"
               pauseOnHover="true"
               pauseOnClick="true"
-              speed="125"
+              speed="50"
               gradientColor="255 255 255"
               style={{ backgroundColor: "black", color: "ghostwhite" }}
             >
               <TechSkillsP>
-                Python - JavaScript/TypeScript - Java - C - C++
+                Python - JavaScript/TypeScript - Java - C - C++ -
               </TechSkillsP>
             </Marquee>
           </TechSkillsCard>

@@ -83,10 +83,11 @@ export const CredentialsCard = styled.div`
   @media screen and (max-width: 1000px) {
     margin: 10px;
     padding: 20px;
-    width: 400px;
+    width: 600px;
   }
 
   @media screen and (max-width: 768px) {
+    flex-direction: column;
     padding: 10px;
     width: 350px;
   }

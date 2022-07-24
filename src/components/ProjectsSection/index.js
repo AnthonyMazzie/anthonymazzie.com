@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import ExternLink from "./gitLink";
-import MazzieCafe from "./mazzieCafeLink";
 import {
   InfoContainer,
   InfoWrapper,
@@ -12,7 +10,6 @@ import {
   SubTitle,
   ImgWrap,
   Img,
-  LinkWrap,
 } from "./ProjectElements";
 
 import Aos from "aos";
@@ -93,16 +90,6 @@ const ProjectsSection = ({
               <Column2>
                 <ImgWrap>
                   <Img src={img} alt={alt} />
-                  {/* <LinkWrap>
-                    <ExternLink />
-                    <p style={{ color: "black", marginTop: "20px" }}>
-                      My newest personal project is linked below (December
-                      2021). It's a React app called Mazzie's Cafe. I used this
-                      project to help me learn about the useState, useEffect,
-                      useContext and useReducer React hooks.
-                    </p>
-                    <MazzieCafe />
-                  </LinkWrap> */}
                 </ImgWrap>
               </Column2>
             </InfoRow>
